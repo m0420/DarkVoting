@@ -1,7 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = DollarVoting
-DollarVoting_FILES = Tweak.xm
+TWEAK_NAME = DarkVoting
+DarkVoting_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 

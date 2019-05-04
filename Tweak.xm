@@ -1,20 +1,19 @@
 %hook FeedPostCommentsBarView
 -(bool)isVoteIconStylingAllowed{
-    return true;
+    return 1;
 }
 %end
 %hook CommentCommandView
 -(bool)isVoteIconStylingAllowed{
-    return true;
-}
+    return 1;}
 %end
 %hook CommentTreeCommandView
--(bool)isVoteIconStylingAllowed{
-    return true;
+-(bool)sVoteIconStylingAllowed{
+    return 1;
 }
 %end
 %hook FeedPostCommentBarNode
 -(bool)isVoteIconStylingAllowed{
-    return true;
+    return 1;
 }
 %end

@@ -1,9 +1,9 @@
-Package: com.samgisaninja.dollarvoting
-Name: DollarVoting
+Package: com.m0420.darkvoting
+Name: DarkVoting
 Depends: mobilesubstrate
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Hides the "give gold" button on stock reddit app
-Maintainer: Sam Gardner
-Author: Sam Gardner
-Section: Tweaks
+Description: Enables subreddit-specific vote buttons
+Maintainer: m0420
+Author: m0420
+Section: m0420

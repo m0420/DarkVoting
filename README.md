@@ -1,2 +1,3 @@
-# DollarVoting
-Hides the "give gold" button on stock reddit app
+# DarkVoting
+Enables subreddit-specific vote buttons in darkmode.
+Like in lightmode, it does not work in the main tab (yet?)

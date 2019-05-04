@@ -1,10 +1,20 @@
-%hook CommentCommandView
--(id)awardButton{
-    return nil;
+%hook FeedPostCommentsBarView
+-(bool)isVoteIconStylingAllowed{
+    return true;
 }
 %end
-%hook FeedPostCommentsBarView
--(id)awardButton{
-  return nil;
+%hook CommentCommandView
+-(bool)isVoteIconStylingAllowed{
+    return true;
+}
+%end
+%hook CommentTreeCommandView
+-(bool)isVoteIconStylingAllowed{
+    return true;
+}
+%end
+%hook FeedPostCommentBarNode
+-(bool)isVoteIconStylingAllowed{
+    return true;
 }
 %end

@@ -5,10 +5,11 @@
 %end
 %hook CommentCommandView
 -(bool)isVoteIconStylingAllowed{
-    return 1;}
+    return 1;
+}
 %end
 %hook CommentTreeCommandView
--(bool)sVoteIconStylingAllowed{
+-(bool)isVoteIconStylingAllowed{
     return 1;
 }
 %end
